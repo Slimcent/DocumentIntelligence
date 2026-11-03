@@ -8,9 +8,9 @@
     <File Path="docs/development/CHANGELOG.md" />
   </Folder>
   <Folder Name="/src/">
-    <Project Path="DocumentIntelligence.Data/DocumentIntelligence.Data.csproj" />
     <Project Path="src/DocumentIntelligence.Api/DocumentIntelligence.Api.csproj" />
     <Project Path="src/DocumentIntelligence.Application/DocumentIntelligence.Application.csproj" />
+    <Project Path="src/DocumentIntelligence.Data/DocumentIntelligence.Data.csproj" Id="30b0f7ee-d1e6-4e85-a796-65d1fc47c597" />
     <Project Path="src/DocumentIntelligence.Interface/DocumentIntelligence.Interface.csproj" />
     <Project Path="src/DocumentIntelligence.Models/DocumentIntelligence.Models.csproj" />
     <Project Path="src/DocumentIntelligence.Worker/DocumentIntelligence.Worker.csproj" />
