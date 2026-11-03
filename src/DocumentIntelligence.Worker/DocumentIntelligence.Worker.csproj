@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-DocumentIntelligence.Worker-23971e76-df42-41a4-b290-630026c3dd7a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DocumentIntelligence.Application\DocumentIntelligence.Application.csproj" />
+    <ProjectReference Include="..\DocumentIntelligence.Interface\DocumentIntelligence.Interface.csproj" />
+    <ProjectReference Include="..\DocumentIntelligence.Models\DocumentIntelligence.Models.csproj" />
+  </ItemGroup>
+</Project>

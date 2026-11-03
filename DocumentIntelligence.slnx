@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/docs/">
+    <File Path="docs/architecture.md" />
+    <File Path="docs/decisions.md" />
+  </Folder>
+  <Folder Name="/docs/development/">
+    <File Path="docs/development/001-project-foundation.md" />
+    <File Path="docs/development/CHANGELOG.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="DocumentIntelligence.Data/DocumentIntelligence.Data.csproj" />
+    <Project Path="src/DocumentIntelligence.Api/DocumentIntelligence.Api.csproj" />
+    <Project Path="src/DocumentIntelligence.Application/DocumentIntelligence.Application.csproj" />
+    <Project Path="src/DocumentIntelligence.Interface/DocumentIntelligence.Interface.csproj" />
+    <Project Path="src/DocumentIntelligence.Models/DocumentIntelligence.Models.csproj" />
+    <Project Path="src/DocumentIntelligence.Worker/DocumentIntelligence.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DocumentIntelligence.IntegrationTests/DocumentIntelligence.IntegrationTests.csproj" />
+    <Project Path="tests/DocumentIntelligence.UnitTests/DocumentIntelligence.UnitTests.csproj" />
+  </Folder>
+</Solution>
